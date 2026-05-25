@@ -1,0 +1,201 @@
+//
+//  TurboSDK.h
+
+
+#import <Foundation/Foundation.h>
+#import "TBHeader.h"
+
+typedef void (^TurboCompletionHandler)(BOOL success, NSError * _Nullable error);
+
+@class UIViewController, UIWindow,TBNativeADView,TBBannerView;
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface TurboSDK : NSObject
+
++ (instancetype)sharedInstance;
+
+@property(nonatomic,weak)UIViewController *nativeRootViewController;
+@property(nonatomic,weak)UIViewController *bannerRootViewController;
+@property(nonatomic,weak)UIViewController *drawRootViewController;
+@property(nonatomic,weak)UIViewController *rewardRootViewController;
+@property(nonatomic,weak)UIViewController *splashRootViewController;
+@property(nonatomic,weak)UIViewController *interstitialRootViewController;
+
++ (NSString *)getSDKVerson;
+
+/// 初始化sdk
+/// @params appId 应用id
++ (void)initSDK:(NSString *)appId;
+/// 初始化sdk
+/// @params appId 应用id
+/// @params completionHandler 初始化回调方法
++ (void)initSDK:(NSString *)appId completionHandler:(TurboCompletionHandler _Nullable)completionHandler;
+/// 设置开屏广告预置策略，需在发起加载广告之前调用。
+/// 注意：仅在首次请求广告位时使用，获取线上广告位策略成功后，后续将会使用线上配置的广告位策略
+/// @params bundle 传入预制策略文件(json)引入到工程对应的Bundle
++ (void)setPresetPlacementConfigPathBundle:(NSBundle *)bundle;
+
+///设置自定义渠道
++ (void)setCustomChannel:(NSString *)channel;
+
+///设置自定义子渠道
++ (void)setCustomSubchannel:(NSString *)subchannel;
+
+/// 设置流量分组自定义规则【应用级维度】
++ (void)setCustomData:(NSDictionary *)customData;
+
+/// 设置流量分组自定义规则【广告位级维度】
++ (void)setCustomData:(NSDictionary *)customData forPlacementID:(NSString *)placementID;
+
+
+/// 加载开屏广告
+/// @param placementId - 广告id
+/// @param delegate 代理
+/// @params extra 本地参数
+/// @param bottomView 开屏广告底部视图，不传即是全屏
+
+- (void)loadSplash:(NSString *)placementId withDelegate:(id<TBSplashDelegate>)delegate withExtra:(NSDictionary *)extra withBottomView:(UIView * _Nullable)bottomView;
+
+
+/// 展示开屏广告
+/// @param placementId 广告id
+/// @param mainWindow 根视图
+/// @params extra 本地参数
+/// @params delegate 代理
+- (void)showSplash:(NSString *)placementId withWindows:(UIWindow *)mainWindow withExtra:(NSDictionary *)extra withDelegate:(id<TBSplashDelegate>)delegate;
+
+
+/// 检查当前是否存在可展示的广告
+/// @params placementId 广告id
+///
++ (BOOL) checkSplash:(NSString *)placementId;
+
+
+/// 加载插屏
+/// @params placementId 广告id
+/// @params extra 本地参数
+/// @params delegate 代理
+/// 
+- (void)loadInterstitial:(NSString *)placementId withExtra:(NSDictionary *)extra withDelegate:(id<TBInterstitialDelegate>)delegate;
+
+
+/// 显示插屏
+/// @params placementId 广告id
+/// @parmas delegate 代理
+- (void)showInterstitial:(NSString *)placementId withDelegate:(id<TBInterstitialDelegate>)delegate;
+
+
+/// 检查当前是否存在可展示的广告
+/// @params placementId 广告id
++ (BOOL)checkInterstitial:(NSString *)placementId;
+
+
+/// 加载激励广告
+/// @params placementId 广告id
+/// @params extra 本地参数
+/// @params delegate 代理
+
+// 如果开启服务器回调,需要回传userId和userData
+
+//NSDictionary *extra = @{
+//       kATAdLoadingExtraUserIDKey:@"userId",
+//       kATAdLoadingExtraMediaExtraKey:@"userData",
+//       kATAdLoadingExtraRewardNameKey:@"奖励名称",
+//       kATAdLoadingExtraRewardAmountKey:@(3)
+// };
+
+- (void)loadReward:(NSString *)placementId withExtra:(NSDictionary *)extra withDelegate:(id<TBRewardedVideoDelegate>)delegate;
+
+
+/// 展示激励广告
+/// @params placementId 广告id
+/// @params delegate 代理
+///
+- (void)showReward:(NSString *)placementId withDelegate:(id<TBRewardedVideoDelegate>)delegate;
+
+/// 检查当前是否存在可展示的广告
+/// @params placementId 广告id
+///
++ (BOOL)checkReward:(NSString *)placementId;
+
+
+
+/// 加载原生广告
+/// @params placementId 广告id
+/// @params delegate 代理
+/// @params extra 本地配置参数,
+- (void)loadNative:(NSString *)placementId withDelegate:(id<TBNativeADDelegate>)delegate withExtra:(NSDictionary *)extra;
+
+
+/// 展示原生广告
+/// @params placementId 广告id
+/// @params adViewFrame 原生广告视图坐标
+- (TBNativeADView *)showNative:(NSString *)placementId withDelegate:(id<TBNativeADDelegate>)delegate withAdViewFrame:(CGRect)adViewFrame;
+
+
+/// 检查当前是否存在可展示的广告
+/// @params placementId 广告id
++(BOOL)checkNative:(NSString *)placementId;
+
+
+/// 加载draw信息流
+/// @params placementId 广告id
+/// @params extra 本地参数
+/// @params delegate 代理
+
+- (void)loadDrawNative:(NSString *)placementId withExtra:(NSDictionary *)extra withDelegate:(id<TBNativeADDelegate>)delegate;
+
+
+/// 展示draw信息流
+/// @params placementId 广告id
+/// @params delegate 代理
+/// @params adViewFrame 广告视图坐标
+/// @return 广告对象
+
+- (TBNativeADView *)showDrawNative:(NSString *)placementId withDelegate:(id<TBNativeADDelegate>) delegate WithAdViewFrame:(CGRect)adViewFrame;
+
+@property (nonatomic,strong)UIView *selfRenderView;
+@property(nonatomic,strong)ATNativeADConfiguration *config;
+
+/// 获取广告素材
+/// @params placementId 广告id
+/// @return 广告素材
+- (ATNativeAdOffer *)getOffer:(NSString *)placementId;
+
+
+/// 检查当前是否存在可展示的广告
+/// @params placementId 广告id
++ (BOOL)checkDrawNative:(NSString *)placementId;
+
+
+
+/// 加载广告
+/// @params placementId 广告id
+/// @params delegate 代理
+/// @params extra 本地参数配置
+- (void)loadBanner:(NSString *)placementId withDelegate:(id<TBBannerDelegate>)delegate withExtra:(NSDictionary *)extra;
+
+
+
+/// 显示广告
+/// @params placementId  广告id
+/// @params delegate 代理
+
+- (TBBannerView *)showBanner:(NSString *)placementId withDelegate:(id<TBBannerDelegate>)delegate;
+
+/// 检查当前是否存在可展示的广告
+/// @params placementId 广告id
+
++ (BOOL)checkBanner:(NSString *)placementId;
+
+
+
+- (NSString *)DrawId:(NSString *)placementId;
+
+
+
+@end
+
+NS_ASSUME_NONNULL_END
+
