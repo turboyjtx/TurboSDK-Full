@@ -1,6 +1,0 @@
-framework module TurboDJXSDK {
-  umbrella header "TurboDJXSDK.h"
-  export *
-
-  module * { export * }
-}

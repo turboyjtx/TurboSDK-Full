@@ -1,0 +1,866 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "WindMillPTGAdapter",
+    "printedName": "WindMillPTGAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WindMillSDK",
+        "printedName": "WindMillSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "PTGAdSDK",
+        "printedName": "PTGAdSDK",
+        "declKind": "Import",
+        "moduleName": "WindMillPTGAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigAdapter",
+        "printedName": "ConfigAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bridge:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConfigAdapter",
+                "printedName": "WindMillPTGAdapter.ConfigAdapter",
+                "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AWMCustomConfigAdapterBridge",
+                "printedName": "any WindMillSDK.AWMCustomConfigAdapterBridge",
+                "usr": "c:@M@WindMillSDK@objc(pl)AWMCustomConfigAdapterBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter(im)initWithBridge:",
+            "mangledName": "$s18WindMillPTGAdapter13ConfigAdapterC6bridgeAC0aB3SDK09AWMCustomdE6Bridge_p_tcfc",
+            "moduleName": "WindMillPTGAdapter",
+            "objc_name": "initWithBridge:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeAdapter",
+            "printedName": "initializeAdapter(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AWMSdkInitConfig",
+                "printedName": "WindMillSDK.AWMSdkInitConfig",
+                "usr": "c:@M@WindMillSDK@objc(cs)AWMSdkInitConfig"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter(im)initializeAdapterWithConfiguration:",
+            "mangledName": "$s18WindMillPTGAdapter13ConfigAdapterC010initializeE013configurationy0aB3SDK010AWMSdkInitD0C_tF",
+            "moduleName": "WindMillPTGAdapter",
+            "objc_name": "initializeAdapterWithConfiguration:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "minSupportOSVersion",
+            "printedName": "minSupportOSVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter(im)minSupportOSVersion",
+            "mangledName": "$s18WindMillPTGAdapter13ConfigAdapterC19minSupportOSVersionSSyF",
+            "moduleName": "WindMillPTGAdapter",
+            "objc_name": "minSupportOSVersion",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkSdkVersion",
+            "printedName": "networkSdkVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter(im)networkSdkVersion",
+            "mangledName": "$s18WindMillPTGAdapter13ConfigAdapterC17networkSdkVersionSSyF",
+            "moduleName": "WindMillPTGAdapter",
+            "objc_name": "networkSdkVersion",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter(im)adapterVersion",
+            "mangledName": "$s18WindMillPTGAdapter13ConfigAdapterC14adapterVersionSSyF",
+            "moduleName": "WindMillPTGAdapter",
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "basedOnCustomAdapterVersion",
+            "printedName": "basedOnCustomAdapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AWMCustomAdapterVersion",
+                "printedName": "WindMillSDK.AWMCustomAdapterVersion",
+                "usr": "c:@M@WindMillSDK@objc(cs)AWMCustomAdapterVersion"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter(im)basedOnCustomAdapterVersion",
+            "mangledName": "$s18WindMillPTGAdapter13ConfigAdapterC013basedOnCustomE7Version0aB3SDK09AWMCustomeI0CyF",
+            "moduleName": "WindMillPTGAdapter",
+            "objc_name": "basedOnCustomAdapterVersion",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRequestAdPrivacyConfigUpdate",
+            "printedName": "didRequestAdPrivacyConfigUpdate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter(im)didRequestAdPrivacyConfigUpdate:",
+            "mangledName": "$s18WindMillPTGAdapter13ConfigAdapterC019didRequestAdPrivacyD6UpdateyySDySSypGF",
+            "moduleName": "WindMillPTGAdapter",
+            "objc_name": "didRequestAdPrivacyConfigUpdate:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConfigAdapter",
+                "printedName": "WindMillPTGAdapter.ConfigAdapter",
+                "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter(im)init",
+            "mangledName": "$s18WindMillPTGAdapter13ConfigAdapterCACycfc",
+            "moduleName": "WindMillPTGAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WindMillPTGAdapter@objc(cs)ConfigAdapter",
+        "mangledName": "$s18WindMillPTGAdapter13ConfigAdapterC",
+        "moduleName": "WindMillPTGAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AWMCustomConfigAdapter",
+            "printedName": "AWMCustomConfigAdapter",
+            "usr": "c:@M@WindMillSDK@objc(pl)AWMCustomConfigAdapter",
+            "mangledName": "$s11WindMillSDK22AWMCustomConfigAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/AHelp\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 26,
+      "value": "\"ToBid | [PTG] | [Object]\""
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/NativeAdData.swift",
+      "kind": "FloatLiteral",
+      "offset": 382,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 742,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1130,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1154,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1164,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1171,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1278,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "StringLiteral",
+      "offset": 1499,
+      "length": 10,
+      "value": "\"PTGAdSDK\""
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "StringLiteral",
+      "offset": 1519,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "StringLiteral",
+      "offset": 1647,
+      "length": 12,
+      "value": "\"fancy_logo\""
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "StringLiteral",
+      "offset": 1669,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1923,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1929,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1939,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1951,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2460,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Datas\/ViewCreator.swift",
+      "kind": "Array",
+      "offset": 3027,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/happyelements\/workspace\/windmill-sdk-ios-swift\/Adapters\/WindMillPTGAdapter\/WindMillPTGAdapter\/NativeAd\/Listeners\/AdLoaderListener.swift",
+      "kind": "BooleanLiteral",
+      "offset": 369,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
